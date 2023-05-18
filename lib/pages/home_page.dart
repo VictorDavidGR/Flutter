@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
             FloatingActionButton(
               child: const Icon(Icons.add),
               onPressed: ()=>_botonSuma()),
-            
+            SizedBox(width: 223),
             FloatingActionButton(
               child: const Icon(Icons.remove_circle_outline),
               onPressed: ()=>_botonRestar()),
